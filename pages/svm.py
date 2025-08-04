@@ -12,6 +12,18 @@ from sklearn.preprocessing import StandardScaler
 
 st.title("SVM Classifier Tuning")
 
+slidebar_rmv = """
+    <style>
+    [data-testid="stSidebarNav"] {
+        display: none;
+    }
+    [data-testid="stSidebarHeader"]{
+            display:none;
+    }
+    </style>
+"""
+st.markdown(slidebar_rmv, unsafe_allow_html=True)
+
 st.sidebar.header("Hyperparameters")
 kernel = st.sidebar.selectbox("Kernel", options=["linear", "poly", "rbf", "sigmoid"])
 C = st.sidebar.slider("Regularization (C)", 0.01, 10.0, 1.0)

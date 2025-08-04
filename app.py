@@ -36,23 +36,23 @@ with col2:
     st.markdown("#### Select Model")
     model = st.selectbox(
         "",
-        ["Select a model...", "Linear Regression", "Logistic Regression", "Random Forest", "Decision Tree", "DBSCAN"],
+        ["Select a model...","Random Forest", "Decision Tree", "DBSCAN","SVM","XGBoost"],
         key="model_selector"
     )
     
     st.markdown("")
     
     if st.button("Start Tuning", type="primary", use_container_width=True):
-        if model == "Linear Regression":
-            st.switch_page("pages/linear_reg.py")
-        elif model == "Random Forest":
+        if model == "Random Forest":
             st.switch_page("pages/random_forest.py")
         elif model == "Decision Tree":
             st.switch_page("pages/decision_tree.py")
         elif model == "DBSCAN":
             st.switch_page("pages/dbscan.py")
-        elif model == "Logistic Regression":
-            st.switch_page("pages/logistic_reg.py")
+        elif model == "SVM":
+            st.switch_page("pages/svm.py")
+        elif model == "XGBoost":
+            st.switch_page("pages/xgboost.py")
         else:
             st.error("Please select a model first!")
 

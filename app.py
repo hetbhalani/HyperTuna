@@ -36,7 +36,7 @@ with col2:
     st.markdown("#### Select Model")
     model = st.selectbox(
         "",
-        ["Select a model...","Random Forest", "Decision Tree", "DBSCAN","SVM","XGBoost"],
+        ["Select a model...","Random Forest", "Decision Tree", "DBSCAN","SVM","XGBoost","K-Means","KNN"],
         key="model_selector"
     )
     
@@ -53,6 +53,10 @@ with col2:
             st.switch_page("pages/svm.py")
         elif model == "XGBoost":
             st.switch_page("pages/xgboost.py")
+        elif model == "K-Means":
+            st.switch_page("pages/k_means.py")
+        elif model == "KNN":
+            st.switch_page("pages/knn.py")   
         else:
             st.error("Please select a model first!")
 

@@ -27,6 +27,12 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## 📷 Screenshorts
+
+[homeScreen](https://github.com/hetbhalani/HyperTuna/imgs/home.png)
+
+[Example](https://github.com/hetbhalani/HyperTuna/imgs/ex.png)
+
 ## 🧠 Included Models
 
 | Filename           | Model                  | Type           | Visuals / Outputs               |

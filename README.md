@@ -10,6 +10,7 @@ Each app focuses on:
 
 ---
 <br>
+
 ## 🚀 Run Any Model App
 
 ### 1. Clone the repository:

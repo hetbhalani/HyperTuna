@@ -9,7 +9,7 @@ Each app focuses on:
 - 📈 Visualizing results (PCA, accuracy, confusion matrix, etc.)
 
 ---
-
+<br>
 ## 🚀 Run Any Model App
 
 ### 1. Clone the repository:
@@ -27,11 +27,16 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+<br>
+
 ## 📷 Screenshorts
 
-[homeScreen](https://github.com/hetbhalani/HyperTuna/imgs/home.png)
+<p align="center">
+  <img src="./imgs/home.png" width="1000px" />
+  <img src="./imgs/ex.png" />
+</p>
 
-[Example](https://github.com/hetbhalani/HyperTuna/imgs/ex.png)
+<br>
 
 ## 🧠 Included Models
 
@@ -44,6 +49,8 @@ streamlit run app.py
 | `svm.py`           | Support Vector Machine | Classification | Accuracy, Heatmap               |
 | `k_means.py`       | KMeans Clustering      | Clustering     | PCA Plot, Cluster Accuracy      |
 | `dbscan.py`        | DBSCAN Clustering      | Clustering     | PCA Visualization               |
+
+<br>
 
 ## ✨ Features
 🔧 Interactive Hyperparameter Tuning via sliders and dropdowns
